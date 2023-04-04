@@ -1,5 +1,5 @@
 *{
-    outline: red solid 1px;
+    /* outline: red solid 1px; */
     padding:0;
     margin: 0;
 }
@@ -28,16 +28,36 @@ img {
 
 .buttom{
 display: flex;
-flex-direction: column;
-align-items: center;
+/*flex-direction: column;
+ align-items: center; */
 padding-bottom: 30px;
 }
 
+.leena{
+    display: flex;
+    flex-direction: column;
+    padding:30px 40px;
+    }
+
+    .but{
+        font-size: 120px;
+        text-align: center;
+        color:rgb(135, 5, 16);
+        background-color: black;
+    }
+    .better {
+        font-size: 45px;
+        margin-top: 30px;
+        padding:10px;
+        background-color: rgb(42, 40, 40);
+        color:brown;
+    }
+
 button{
-    padding: 10px 30px;
+    padding: 10px 20px;
     font-weight: bold;
-    font-size: large;
-    margin: 50px;
+    font-size: 28px;
+    margin: 30px;
     border: black solid 5px;
     border-radius: 10px;
     background-color: rgb(54, 52, 52);
@@ -45,8 +65,8 @@ button{
 }
 
 button:hover{
-    background-color: rgb(235, 234, 234);
-    color:rgb(20, 21, 21);
+    background-color: rgb(3, 3, 3);
+    color:rgb(135, 5, 16);
 }
 
 .ask{
@@ -60,7 +80,28 @@ button:hover{
     margin: 20px;
 }
 
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    padding-top: 30px;
+}
 
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(26, 12, 39);
+    color:rgb(210, 162, 244);
+    border:rgb(35, 34, 35) solid 5px;
+    border-radius: 16px;
+}
+
+.text2{
+    font-size: 28px;;
+    padding: 20px 10px;
+    background-color: rgb(142, 137, 137);
+    text-align: center;
+}
 .interaction{
     display: flex;
 }
