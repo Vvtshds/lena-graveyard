@@ -17,15 +17,23 @@
             </div>
             <div class="leena">
                 <div class="but">НО!</div>
-                <div class="better">Лучше позвать Лену!</div>
-                <button>позвать Лену</button>
+                <div class="better">Лучше позвать Лену и спросить у нее!</div>
+                <button onclick="showImage()">позвать Лену</button>
+            </div>
+        </div>
+        <div id="first" style="display:none;">
+            <div class='interaction'>
+                <img class="lena" src="img/1.jpg"></div>
+                <div class="ask"> вам что делать нечего конфеты на кладбище собирать?! дебилы боже, я щас полиции вызову
             </div>
         </div>
 
 
-        <div class='interaction'>
-                <img class="lena" src="img/lena.jpg">
-                <div class="ask"> >Вика, Рита, a что мы делаем на кладбище..?</div>
-        </div>
+        <script>
+            const showImage = () => {
+        document.getElementById("first").style.display ='flex';
+            }
+        </script>
+
     </body>
 </html>
