@@ -1,25 +1,28 @@
-*{outline: red solid 1px;}
+*{
+    outline: red solid 1px;
+    padding:0;
+    margin: 0;
+}
+
 
 body{
-    width: 900px;
-    background-color: grey;
-    padding: 100px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(84, 82, 82);
 }
 
-
-.up{
-    display: grid;
-    place-items:center;
-}
 
 img {
-    height: 400px;
+    height: 340px;
     width: auto;
-    position: c;
+    padding: 0;
+
 }
 
 .lena{
-    width: 600px;
+    width: 500px;
     height: auto;
 }
 
