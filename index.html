@@ -7,21 +7,18 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="up">
+        <div class="header">
             <img src="img/grave.jpg"/>
         
         </div>
-        <div class="buttom">
-            <div class="text">
-                <h1>СЛЕДУЕТ ЛИ БРАТЬ ПЕЧЕНЬЕ И ПРОЧИЕ УГОЩЕНИЯ С МОГИЛ?</h1>
-                <div class="text2">Если сладости завёрнуты в пакет, то брать можно – и это даже желательно. Не забудьте только вслух помянуть упокоенного (или нескольких), с чьей могилы взяли подношения. Вполне достаточно сказать: «Царствие Небесное Иван Иванычу» или «Покойся с миром Александра Александровна». </div>
-            </div>
-            <div class="leena">
-                <div class="but">НО!</div>
-                <div class="better">Лучше позвать Лену и спросить у нее!</div>
-                <button onclick="showImage()">позвать Лену</button>
-            </div>
-        </div>
+        <div class="main">
+            <div class="text1">СЛЕДУЕТ ЛИ БРАТЬ ПЕЧЕНЬЕ И ПРОЧИЕ УГОЩЕНИЯ С МОГИЛ?</div>
+            <div class="text2">Если сладости завёрнуты в пакет, то брать можно – и это даже желательно. Не забудьте только вслух помянуть упокоенного (или нескольких), с чьей могилы взяли подношения. Вполне достаточно сказать: «Царствие Небесное Иван Иванычу» или «Покойся с миром Александра Александровна». </div>
+            <div class="but">НО!</div>
+            <div class="better">Лучше позвать Лену и спросить у нее!</div>
+            <button onclick="showAndHide()">позвать Лену</button>        </div>
+        
+        
         <div id="first" style="display:none;">
             <div class='interaction'>
                 <img class="lena" src="img/1.jpg"></div>
@@ -31,7 +28,7 @@
 
 
         <script>
-            const showImage = () => {
+            const showAndHide = () => {
         document.getElementById("first").style.display ='flex';
             }
         </script>
