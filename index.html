@@ -16,11 +16,11 @@
             <div class="text2">Если сладости завёрнуты в пакет, то брать можно – и это даже желательно. Не забудьте только вслух помянуть упокоенного (или нескольких), с чьей могилы взяли подношения. Вполне достаточно сказать: «Царствие Небесное Иван Иванычу» или «Покойся с миром Александра Александровна». </div>
             <div class="but">НО!</div>
             <div class="better">Лучше позвать Лену и спросить у нее!</div>
-            <button onclick="showAndHide()">позвать Лену</button>        </div>
+            <a href="#interaction"><button onclick="showAndHide()">позвать Лену &#129409</button></a>        </div>
         
         
         <div id="first" style="display:none;">
-            <div class='interaction'>
+            <div id='interaction'>
                 <img class="lena" src="img/1.jpg"></div>
                 <div class="ask"> вам что делать нечего конфеты на кладбище собирать?! дебилы боже, я щас полицию вызову
             </div>
@@ -31,6 +31,7 @@
             const showAndHide = () => {
         document.getElementById("first").style.display ='flex';
             }
+
         </script>
 
     </body>
